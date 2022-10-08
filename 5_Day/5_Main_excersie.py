@@ -9,11 +9,6 @@ nr_letters= int(input("How many letters would you like in your password?\n"))
 nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
-#Eazy Level - Order not randomised:
-#e.g. 4 letter, 2 symbol, 2 number = JduE&!91
-
-# First need to slect two random letter form list if user say 2 then slect two random number
-
 random_letter = ""
 for letter in range(0, nr_letters):
     random_letter += random.choice(letters)
@@ -71,3 +66,12 @@ print(sr)
 
 
 
+
+
+# """ Here is the explanation for the code above:
+# 1. First of all we import random module
+# 2. Then we create three list contain letters, numbers and symbols.
+# 3. Then we ask user how many letters, symbols and numbers he wants in password.
+# 4. Then we create three empty string and loop through the list and append random element from the list to the string.
+# 5. Then we concatenate the string to create final password.
+# 6. Then we shuffle the password using random.sample() method and print the password. """
