@@ -14,3 +14,5 @@ height = float(input('Enter you height in meters: '))
 bmi = weight / height**2
 
 print(float(bmi))
+
+s
