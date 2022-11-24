@@ -30,10 +30,10 @@ print('''
 print("Welcome to Treasure island. Ypur mission is to find the treasure!\n Lets start the Game\n")
 
 
-firstDescision = input("You wana go left or right").lower()
+firstDescision = input("You wanna go left or right").lower()
 
 if firstDescision == "left":
-    print("Wise Desision child")
+    print("Wise Decision child")
     secondDescision = input("Water here do wanna swim or wait for boat?").lower()
     if secondDescision == "wait":
         print("Nice")
