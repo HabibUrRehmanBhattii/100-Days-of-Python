@@ -37,7 +37,7 @@ if firstDescision == "left":
     secondDescision = input("Water here do wanna swim or wait for boat?").lower()
     if secondDescision == "wait":
         print("Nice")
-        thiredDescison = input("Choose a door red, yellow or blue?")
+        thiredDescison = input("Choose a door red, yellow or blue?").lower()
         if thiredDescison == "yellow":
             print("You Wins")
         elif thiredDescison == "red":
