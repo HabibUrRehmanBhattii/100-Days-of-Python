@@ -49,5 +49,5 @@ if firstDescision == "left":
     else:
         print("Opps deep water!")
 else:
-    p
+    print("You  wrong ways")
 
