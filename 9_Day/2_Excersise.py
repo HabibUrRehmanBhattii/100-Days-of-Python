@@ -31,7 +31,7 @@ def add_new_country(country_visited, vists_visited, cities_visited):
 add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
 add_new_country("Pakistan", 3, ["Karachi", "Islamabad"])
 
-print(travel_log)
+print(travel)
 
 
 
