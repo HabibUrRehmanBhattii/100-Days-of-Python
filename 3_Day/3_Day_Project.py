@@ -27,7 +27,7 @@ print('''
                             ;  bug
 ''')
 
-print("Welcome to Treasure island. Ypur mission is to find the treasure!\n Lets start the Game\n")
+print("Welcome to Treasure island. Your mission is to find the treasure!\n Lets start the Game\n")
 
 
 firstDescision = input("You wanna go left or right").lower()
