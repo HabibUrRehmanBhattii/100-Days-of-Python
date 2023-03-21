@@ -1,18 +1,27 @@
 # 31. Nested if statements and elif statements
 
-print("Welcome to the rollercoaster!")
+print("Welcome to the roller-coaster!")
 height = int(input("What is your height in cm? "))
-
+bill = 0
 
 if height > 120:
-    print("You can ride the rollercoaster!\n")
+    print("You can ride the roller-coaster!\n")
     age = int(input("What is your age?\n"))
     if age < 12:
-        print("Please pay $5.") 
+        bill = 5
+        print(f"Child tickets are ${bill}.\n")
     elif age <= 18:
-            print("Please pay $7")
+        bill = 7
+        print(f"Youth tickets are  ${bill}.\n")
     else:
-        print("Please pay $12.")
+        bill = 12
+        print(f"Adult tickets are pay ${bill}.\n")
+
+    photo_taken = input('Do you want a phot taken? Y or N.').lower()
+
+    if photo_taken == 'y':
+        bill += 3
+        print(f'Your total bill bit ${bill}')
 else:
     print("Sorry, you have to grow taller before you can ride.")
 
