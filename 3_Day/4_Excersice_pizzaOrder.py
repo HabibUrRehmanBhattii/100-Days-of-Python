@@ -8,7 +8,6 @@ extra_cheese = input("Do you want extra cheese? Y or N ")
 # Write your code below this line 👇
 bill = 0
 
-
 #  Here if and elif statements are used to calculate the bill
 
 # if size == "S":
@@ -36,13 +35,12 @@ bill = 0
 # print(f"Your final bill is: ${bill}")
 
 
-
-# Here you can see that I have used the elif statement to make the code more efficient. I have also used the += operator to make the code more efficient.
+# Here you can see that I have used the elif statement to make the code more efficient. I have also used the +=
+# operator to make the code more efficient.
 
 # I have also used the else statement to make sure that the user chooses a size.
 
 # I have also used the f string to make the code more efficient.
-
 
 
 #  Alternative solution
@@ -56,11 +54,16 @@ else:
 
 if add_pepperoni == "Y":
     if size == "S":
-        bill +2
+        var = bill + 2
     else:
-        bill +=3
+        bill += 3
 
 if extra_cheese == "Y":
     bill += 1
 
 print(f"Your bill is: ${bill}")
+
+#  Here I have used the elif statement to make the code more efficient. I have also used the +=
+# operator to make the code more efficient.
+
+# I have also used the else statement to make sure that the user chooses a size.
