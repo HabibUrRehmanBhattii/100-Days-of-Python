@@ -1,7 +1,7 @@
 import tkinter as tk
 
 
-def check_leap_year(event=None):
+def check_leap_year():
     year = int(year_entry.get())
     if year % 4 == 0:
         if year % 100 == 0:
