@@ -6,23 +6,13 @@ names = name_string.split(', ')
 
 max_names = len(names)
 #  Find the total number of names in the list
-random_selection = r.randint(0, max_names -1)
+random_selection = r.randint(0, max_names - 1)
 print(random_selection)
 
 select_person = names[random_selection]
 
 #  Select a random person from the list of names
 print(f'{select_person} is going to buy the meal today!')
-
-
-
-
-
-
-
-
-
-
 
 #
 # name_list = ['Angela', 'Ben', 'Jenny', 'Michael', 'Chloe']
