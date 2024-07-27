@@ -1,15 +1,11 @@
-# Head or Tails
-
-# There are two variables, a and b from input
-a = input()
-b = input()
-# 🚨 Don't change the code above ☝️
-####################################
 # Write your code below this line 👇
+# Hint: Remember to import the random module first. 🎲
 
+import random
 
+random_number = random.randint(0,1)
 
-
-# 🚨 Don't change the code below 👇
-print("a: " + a)
-print("b: " + b)
+if random_number == 1:
+    print("Heads")
+else:
+    print("Tails")
