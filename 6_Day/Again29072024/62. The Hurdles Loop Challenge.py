@@ -21,5 +21,11 @@ def one_step():
     turn_left()
 
 
-for _ in range(6):
+#for _ in range(6):
+#    one_step()
+
+numbers_of_hurdle = 6
+
+while numbers_of_hurdle > 0:
     one_step()
+    numbers_of_hurdle -= 1
