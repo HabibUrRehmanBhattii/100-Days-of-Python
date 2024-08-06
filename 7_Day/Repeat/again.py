@@ -21,12 +21,12 @@ while not end_of_game:
     # TODO: Ask the user to guess a letter
     guess = input("Guess the letter: ").lower()
     while len(guess) != 1 or not guess.isalpha():
-        input("Invalid input!  Please write only one alp abate a time")
+        guess = input("Invalid input!  Please write only one alp abate a time").lower()
     # TODO: If the user has entered a letter they've already guessed, print the letter and let them know
     if guess in display:
         print(f"You have already guessed {guess}")
     # TODO: Check guessed letter and update the display
-    for position in range(word_choice):
+    for position in range(word_length):
         letter = word_choice[position]
         if letter == guess:
             display[position] = letter
@@ -36,7 +36,7 @@ while not end_of_game:
         lives -= 1
         if lives == 0:
             end_of_game = True
-            print(f"You guessed {guess}, that's not in the word. You lose a life.")
+            print(f"You lose. The word was: {word_choice}")
 
     # TODO: Join all the elements in the list and turn it into a string
     print("".join(display))
